@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- axios libary  -->
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="https://openweathermap.org/_next/image?url=%2Fpayload%2Fapi%2Fmedia%2Ffile%2Flogo_white.png&w=256&q=75" alt="OpenWeather Logo">
+    </div>
+
+    <form id="myform">
+        <input type="text" placeholder="Enter city name" id="city">
+        <button>Get Weather</button>
+    </form>
+    <div id="weather"></div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
